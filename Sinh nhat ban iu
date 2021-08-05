@@ -5,8 +5,8 @@
 int main()
 {
 	//Doan nay thi tu lam huuhu
-	char ten[] = "Vo Thi Thu Thuy";
-	char date[] = "26-8-2003";
+	char ten[] = "Ho Thanh Viet";
+	char date[] = "10-1-2003";
 	char T[100] , D[100] ;
 	int a, b, size = 15, i;
 	printf("Nhap ten cua ban (VD Tran Thi Ngoc Tram) : ");
