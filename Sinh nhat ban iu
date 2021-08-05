@@ -1,3 +1,4 @@
+#include<windows.h>
 #include<stdio.h>
 #include<string.h>
  
@@ -22,8 +23,22 @@ int main()
 	        gets(D); 
 	    }} 
 	
-	 for(i = 2; i <= 1000; i ++){
-	printf("Loading  \n");}
+        printf("loading 20 % \n") ;
+        Sleep( 1000 );
+         
+         printf("loading 40 % \n") ;
+        Sleep( 1000 );
+		 
+         printf("loading 60 % \n") ;
+        Sleep( 1000 );
+         
+         printf("loading 80 % \n") ;
+        Sleep( 1000) ;
+         
+         printf("loading 100 '%' \n") ;
+        Sleep( 1000 );
+         
+        
 	
 	
 	
@@ -67,6 +82,7 @@ int main()
  
         printf("\n");
 		  
-    } printf("\n        I love you UwU"); 
+    } Sleep( 1000 ); 
+	printf("\n        I love you UwU"); 
     return 0;
 } 
